@@ -121,6 +121,7 @@ p {
 
 .abt-text {
   padding: 10px auto;
+  margin: 25px;
 }
 
 .About1 {
@@ -166,5 +167,5 @@ p {
 
 .link {
   text-decoration: none;
-  color: dodgerblue;
+  color: white;
 }
