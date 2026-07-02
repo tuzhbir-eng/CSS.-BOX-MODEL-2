@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-size: 0;
 }
-
+h1 {
+  font-size: 50px;
+}
 header {
   min-height: 500px;
   width: 100%;
@@ -37,12 +39,13 @@ body {
 .btn {
   text-decoration: none;
   color: white;
-  display: inline;
+  display: inline-block;
   margin: 30px;
   padding: 15px 50px;
   border: 1px gray solid;
   background-color: #353839;
   border-radius: 10px;
+  font-size: 16px;
 }
 
 h2 {
@@ -59,8 +62,8 @@ h2 {
 }
 
 .card-img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   vertical-align: middle;
   object-fit: cover;
   object-position: center;
@@ -68,6 +71,7 @@ h2 {
 
 .cardtext {
   font-size: initial;
+  margin: 15px;
 }
 
 p {
@@ -91,6 +95,7 @@ p {
   vertical-align: top;
   display: inline-block;
   margin: 0 10px;
+  padding: 15px;
 }
 
 .bot-info {
@@ -127,10 +132,6 @@ p {
   color: aliceblue;
   padding-left: 20px;
   padding-right: 20px;
-}
-.contact {
-  max-width: 90%;
-  max-height: 90%;
 }
 
 .foot {
