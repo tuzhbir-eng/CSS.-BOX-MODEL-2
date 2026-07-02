@@ -78,7 +78,6 @@ p {
 .cardsstyle {
   background-color: #353839;
   padding: 30px;
-  display: inline-block;
   width: 100%;
   margin-top: 40px;
   box-sizing: border-box;
@@ -87,7 +86,7 @@ p {
 .cards {
   background-color: white;
   width: 250px;
-  height: 500px;
+  min-height: 500px;
   border-radius: 10px;
   vertical-align: top;
   display: inline-block;
