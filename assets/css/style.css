@@ -15,8 +15,6 @@ header {
   background-color: darkblue;
   color: white;
   display: inline-block;
-  margin: 0;
-  padding: 0;
 }
 body {
   text-align: center;
@@ -77,36 +75,23 @@ p {
   display: inline-block;
   font-size: initial;
 }
-.card1 {
+.cardsstyle {
+  background-color: #353839;
+  padding: 30px;
   display: inline-block;
-  border-radius: 10px;
-  background-color: white;
-  width: 250px;
-  height: 500px;
-}
-
-.card2 {
-  display: inline-block;
-
-  background-color: white;
-  width: 250px;
-  height: 500px;
-  border-radius: 10px;
-}
-
-.card3 {
-  display: inline-block;
-  border-radius: 10px;
-  background-color: white;
-  width: 250px;
-  height: 500px;
+  width: 100%;
+  margin-top: 40px;
+  box-sizing: border-box;
 }
 
 .cards {
-  background-color: #353839;
-  padding: 30px;
-  column-count: 3;
-  margin-top: 40px;
+  background-color: white;
+  width: 250px;
+  height: 500px;
+  border-radius: 10px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .bot-info {
