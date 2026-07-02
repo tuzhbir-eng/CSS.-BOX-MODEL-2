@@ -124,31 +124,27 @@ p {
   margin: 25px;
 }
 
-.about1 {
-  background-color: dodgerblue;
+.about1,
+.about2 {
   display: inline-block;
   width: 50%;
   box-sizing: border-box;
   vertical-align: top;
   min-height: 230px;
   padding-bottom: 15px;
-  color: aliceblue;
   padding: auto 15px;
+}
+.about1 {
+  background-color: dodgerblue;
+  color: aliceblue;
 }
 .about2 {
   background-color: #353839;
-  display: inline-block;
-  width: 50%;
-  box-sizing: border-box;
-  vertical-align: top;
-  min-height: 230px;
-  padding-bottom: 15px;
   color: aliceblue;
-  padding: auto 15px;
   padding-left: 20px;
   padding-right: 20px;
 }
-І .contact {
+.contact {
   max-width: 90%;
   max-height: 90%;
 }
