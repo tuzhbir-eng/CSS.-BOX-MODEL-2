@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 0;
 }
 h1 {
   font-size: 50px;
@@ -111,6 +110,10 @@ p {
 .abt-text {
   padding: 10px auto;
   margin: 25px;
+}
+
+.abt {
+  font-size: 0;
 }
 
 .about1,
